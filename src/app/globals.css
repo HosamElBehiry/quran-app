@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+/* width */
+.yellow-scroll-bar::-webkit-scrollbar {
+  width: 2px;
+  height: 4px;
+}
+
+/* Track */
+.yellow-scroll-bar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.yellow-scroll-bar::-webkit-scrollbar-thumb {
+  background: oklch(55.4% 0.135 66.442);
+}
+
+/* React Select Styling.. */
+.react-select__control {
+  border: 1px solid #e5e7eb !important;
+}
+
+@media (max-width: 1024px) {
+  .react-select__single-value,
+  .react-select--is-disabled,
+  .react-select__menu {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .react-select__indicator-separator {
+    display: none !important;
+  }
+
+  .react-select__control {
+    padding: 0.005rem 0 !important;
+  }
+}

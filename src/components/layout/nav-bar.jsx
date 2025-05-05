@@ -1,6 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+import { QuranMenu } from "./quran-menu";
+import { SunnahMenu } from "./sunnah-menu";
 import { BurgerMenuIcon } from "../icons/burger-menu";
+import { AkidahMenu } from "./akida-menu";
+import { IslamichMenu } from "./islamic-values";
 
 export const Navbar = () => {
   return (
@@ -15,24 +19,13 @@ export const Navbar = () => {
         />
       </Link>
       <div className="hidden lg:flex items-center gap-8">
-        <Link href="#" className="font-medium hover:text-yellow-700">
+        <Link href="#" className="font-medium hover:text-yellow-700 py-2">
           الرئيسية
         </Link>
-        <Link href="#" className="font-medium hover:text-yellow-700">
-          القران الكريم
-        </Link>
-        <Link href="#" className="font-medium hover:text-yellow-700">
-          السنة النبوية
-        </Link>
-        <Link href="#" className="font-medium hover:text-yellow-700">
-          العقيده الإسلامية
-        </Link>
-        <Link href="#" className="font-medium hover:text-yellow-700">
-          القيم الإسلامية
-        </Link>
-        <Link href="#" className="font-medium hover:text-yellow-700">
-          نماذج الأسئلة
-        </Link>
+        <QuranMenu />
+        <SunnahMenu />
+        <AkidahMenu />
+        <IslamichMenu />
       </div>
       <BurgerMenuIcon className="lg:hidden" />
     </nav>
