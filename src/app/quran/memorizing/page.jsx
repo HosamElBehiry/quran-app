@@ -16,7 +16,7 @@ const MemorizingQuranPage = () => {
   return (
     <main className="my-10 max-sm:my-5 w-3/4 mx-auto px-3 flex max-lg:container 2xl:container flex-col max-sm:gap-7 gap-15">
       <h2 className="py-6 max-lg:py-3 w-fit max-lg:w-full max-lg:text-center mx-auto">
-        <span className="font-extrabold max-lg:text-base text-lg max-sm:text-sm relative z-20">
+        <span className="font-extrabold max-lg:text-base text-xl max-sm:text-sm relative z-20">
           مسابقة حفظ القران الكريم
         </span>
       </h2>
