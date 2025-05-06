@@ -1,19 +1,19 @@
 @import "tailwindcss";
 
 /* width */
-.yellow-scroll-bar::-webkit-scrollbar {
+.green-scroll-bar::-webkit-scrollbar {
   width: 2px;
   height: 4px;
 }
 
 /* Track */
-.yellow-scroll-bar::-webkit-scrollbar-track {
+.green-scroll-bar::-webkit-scrollbar-track {
   background: transparent;
 }
 
 /* Handle */
-.yellow-scroll-bar::-webkit-scrollbar-thumb {
-  background: oklch(55.4% 0.135 66.442);
+.green-scroll-bar::-webkit-scrollbar-thumb {
+  background: oklch(50.8% 0.118 165.612);
 }
 
 /* React Select Styling.. */

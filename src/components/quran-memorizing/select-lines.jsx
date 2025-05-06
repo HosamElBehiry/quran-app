@@ -4,7 +4,7 @@ import Select from "react-select";
 
 const SelectLines = () => {
   return (
-    <div className="flex flex-col gap-8 max-md:gap-3 w-80 max-md:w-full">
+    <div className="flex flex-col gap-5 max-md:gap-3 w-full">
       <h4 className="font-medium max-sm:text-sm max-lg:text-base text-lg">
         إختر عدد السطور
       </h4>

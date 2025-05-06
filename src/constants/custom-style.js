@@ -11,13 +11,13 @@ export const customStyles = {
   }),
   option: (provided, state) => ({
     ...provided,
-    backgroundColor: state.isFocused ? "oklch(47.6% 0.114 61.907)" : "white",
+    backgroundColor: state.isFocused ? "oklch(50.8% 0.118 165.612)" : "white",
     color: state.isFocused ? "white" : "black",
 
     border: "none",
     "&:hover": {
       cursor: "pointer",
-      backgroundColor: "oklch(47.6% 0.114 61.907)",
+      backgroundColor: "oklch(50.8% 0.118 165.612)",
       color: "white",
     },
   }),

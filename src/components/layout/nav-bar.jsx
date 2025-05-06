@@ -19,7 +19,7 @@ export const Navbar = () => {
         />
       </Link>
       <div className="hidden lg:flex items-center gap-8">
-        <Link href="#" className="font-medium hover:text-yellow-700 py-2">
+        <Link href="#" className="font-medium hover:text-emerald-600 py-2">
           الرئيسية
         </Link>
         <QuranMenu />
